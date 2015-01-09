@@ -1,0 +1,49 @@
+html,body
+{
+	height: 100%;
+}
+
+.alert {
+	position:absolute;
+	z-index:1;
+	right:0;
+	top:0;
+}
+
+.push-down {
+	padding-top:1.5em;
+}
+.push-left {
+	padding-right: 1em;
+}
+
+#container { height:100%; }
+
+.input-group[class*="col-"] {
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+.text-white { color: #ffffff; }
+
+.nav_icon_active { color: #00A6CB;}
+
+.loading-data { opacity: 0.25; }
+
+@keyframes fadeOut
+{
+	from { opacity: 1.0; }
+	to { opacity: 0.0; }
+}
+
+@-webkit-keyframes fadeOut 
+{
+	from { opacity: 1.0 }
+	to { opacity: 0.0 }
+}
+
+.fade-out
+{ 
+	animation: fadeOut 2s infinite;
+	-webkit-animation: fadeOut 2s infinite;
+}
